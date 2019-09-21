@@ -6,19 +6,19 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <link rel="dns-prefetch" href="http://hmbool.github.io">
-  <title>织梦世界</title>
+  <title>搭建Mysql | 织梦世界</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="测试blog的写的功能搭建aria2 一键搭建Aria2部署   1wget -N –no-check-certificate https://raw.githubusercontent.com/ToyoDAdoubiBackup/doubi/master/aria2.sh &amp;amp;&amp;amp; chmod +x aria2.sh  然后输入  1$./aria2.sh">
+  <meta name="description" content="1.搭建Mysql1 .环境准备：在装Mysql之前，需要保证你的电脑中装有.net framework 4.0及以上版本。  2 .准备安装包：去Mysql官网找个安装包，https://dev.mysql.com/downloads/windows/installer/8.0.html  3 .开始安装：以管理员身份运行cmd，cmd中运行安装包  修改 root 密码 在Mysql目录下的b">
 <meta property="og:type" content="article">
-<meta property="og:title" content="织梦世界">
-<meta property="og:url" content="http://hmbool.github.io/2019/09/05/test/index.html">
+<meta property="og:title" content="搭建Mysql">
+<meta property="og:url" content="http://hmbool.github.io/2019/09/18/搭建Mysql/index.html">
 <meta property="og:site_name" content="织梦世界">
-<meta property="og:description" content="测试blog的写的功能搭建aria2 一键搭建Aria2部署   1wget -N –no-check-certificate https://raw.githubusercontent.com/ToyoDAdoubiBackup/doubi/master/aria2.sh &amp;amp;&amp;amp; chmod +x aria2.sh  然后输入  1$./aria2.sh">
+<meta property="og:description" content="1.搭建Mysql1 .环境准备：在装Mysql之前，需要保证你的电脑中装有.net framework 4.0及以上版本。  2 .准备安装包：去Mysql官网找个安装包，https://dev.mysql.com/downloads/windows/installer/8.0.html  3 .开始安装：以管理员身份运行cmd，cmd中运行安装包  修改 root 密码 在Mysql目录下的b">
 <meta property="og:locale" content="default">
-<meta property="og:updated_time" content="2019-09-05T16:09:03.441Z">
+<meta property="og:updated_time" content="2019-09-21T05:47:24.880Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="织梦世界">
-<meta name="twitter:description" content="测试blog的写的功能搭建aria2 一键搭建Aria2部署   1wget -N –no-check-certificate https://raw.githubusercontent.com/ToyoDAdoubiBackup/doubi/master/aria2.sh &amp;amp;&amp;amp; chmod +x aria2.sh  然后输入  1$./aria2.sh">
+<meta name="twitter:title" content="搭建Mysql">
+<meta name="twitter:description" content="1.搭建Mysql1 .环境准备：在装Mysql之前，需要保证你的电脑中装有.net framework 4.0及以上版本。  2 .准备安装包：去Mysql官网找个安装包，https://dev.mysql.com/downloads/windows/installer/8.0.html  3 .开始安装：以管理员身份运行cmd，cmd中运行安装包  修改 root 密码 在Mysql目录下的b">
   
     <link rel="alternative" href="/atom.xml" title="织梦世界" type="application/atom+xml">
   
@@ -154,19 +154,57 @@
             <canvas data-colors="#eaeaea" data-sectionHeight="100" data-contentId="js-content" id="myCanvas1" class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            <article id="post-test" class="article article-type-post " itemscope itemprop="blogPost">
+            <article id="post-搭建Mysql" class="article article-type-post " itemscope itemprop="blogPost">
   <div class="article-inner">
+    
+      <header class="article-header">
+        
+  
+    <h1 class="article-title" itemprop="name">
+      搭建Mysql
+    </h1>
+  
+
+        
+        <a href="/2019/09/18/搭建Mysql/" class="archive-article-date">
+  	<time datetime="2019-09-18T15:01:18.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-09-18</time>
+</a>
+        
+      </header>
     
     <div class="article-entry" itemprop="articleBody">
       
-        <h1 id="测试blog的写的功能"><a href="#测试blog的写的功能" class="headerlink" title="测试blog的写的功能"></a>测试blog的写的功能</h1><h2 id="搭建aria2"><a href="#搭建aria2" class="headerlink" title="搭建aria2"></a>搭建aria2</h2><ul>
-<li><p>一键搭建Aria2部署  </p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">wget -N –no-check-certificate https://raw.githubusercontent.com/ToyoDAdoubiBackup/doubi/master/aria2.sh &amp;&amp; chmod +x aria2.sh</span><br></pre></td></tr></table></figure>
+        <h2 id="1-搭建Mysql"><a href="#1-搭建Mysql" class="headerlink" title="1.搭建Mysql"></a>1.搭建Mysql</h2><p>1 .环境准备：在装Mysql之前，需要保证你的电脑中装有.net framework 4.0及以上版本。 </p>
+<p>2 .准备安装包：去Mysql官网找个安装包，<a href="https://dev.mysql.com/downloads/windows/installer/8.0.html" target="_blank" rel="noopener">https://dev.mysql.com/downloads/windows/installer/8.0.html</a> </p>
+<p>3 .开始安装：以管理员身份运行cmd，cmd中运行安装包 </p>
+<h2 id="修改-root-密码"><a href="#修改-root-密码" class="headerlink" title="修改 root 密码"></a>修改 root 密码</h2><ul>
+<li>在Mysql目录下的bin目录下执行mysql.exe -u root -padmin 修改 root 密码 ： set password for root@localhost = password(“admin”)</li>
+</ul>
+<h3 id="Mysql创建数据库"><a href="#Mysql创建数据库" class="headerlink" title="Mysql创建数据库"></a>Mysql创建数据库</h3><figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">create</span> <span class="keyword">database</span> &lt;表名&gt;</span><br></pre></td></tr></table></figure>
+
+<h3 id="Mysql创建表"><a href="#Mysql创建表" class="headerlink" title="Mysql创建表"></a>Mysql创建表</h3><figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">CREATE</span> <span class="keyword">TABLE</span> hero (</span><br><span class="line">    <span class="keyword">id</span> <span class="built_in">int</span>(<span class="number">11</span>) AUTO_INCREMENT,</span><br><span class="line">    <span class="keyword">name</span> <span class="built_in">varchar</span>(<span class="number">30</span>) ,</span><br><span class="line">    hp <span class="built_in">float</span>,</span><br><span class="line">    damage <span class="built_in">int</span>(<span class="number">11</span>),</span><br><span class="line">    PRIMARY <span class="keyword">KEY</span> (<span class="keyword">id</span>)</span><br><span class="line">) <span class="keyword">DEFAULT</span> <span class="keyword">CHARSET</span>=UTF<span class="number">-8</span>;</span><br></pre></td></tr></table></figure>
+
+<h3 id="Mysql插入数据"><a href="#Mysql插入数据" class="headerlink" title="Mysql插入数据"></a>Mysql插入数据</h3><figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">INSERT</span> <span class="keyword">into</span> hero <span class="keyword">values</span> (<span class="literal">null</span>, <span class="string">'盖伦'</span>, <span class="number">616</span>, <span class="number">100</span>)</span><br></pre></td></tr></table></figure>
+
+<h3 id="Mysql查询数据"><a href="#Mysql查询数据" class="headerlink" title="Mysql查询数据"></a>Mysql查询数据</h3><ul>
+<li><p>1.查询所有数据</p>
+  <figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">SELECT</span> * <span class="keyword">from</span> hero</span><br></pre></td></tr></table></figure>
 </li>
-<li><p>然后输入 </p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$./aria2.sh</span><br></pre></td></tr></table></figure>
+<li><p>2.统计表中有多少条数据 </p>
+  <figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">SELECT</span> <span class="keyword">count</span>(*) <span class="keyword">from</span> hero</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>3.显示前5条数据</p>
+  <figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">SELECT</span> * <span class="keyword">from</span> hero <span class="keyword">limit</span> <span class="number">0</span>,<span class="number">5</span></span><br></pre></td></tr></table></figure>
 
 </li>
+</ul>
+<h3 id="Mysql修改数据"><a href="#Mysql修改数据" class="headerlink" title="Mysql修改数据"></a>Mysql修改数据</h3><ul>
+<li>修改  <figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">UPDATE</span> hero <span class="keyword">set</span> hp = <span class="number">818</span> <span class="keyword">where</span> <span class="keyword">id</span> = <span class="number">1</span></span><br></pre></td></tr></table></figure>
+
+</li>
+</ul>
+<h3 id="Mysql删除数据"><a href="#Mysql删除数据" class="headerlink" title="Mysql删除数据"></a>Mysql删除数据</h3><ul>
+<li>删除  <figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">DELETE</span> <span class="keyword">from</span> hero <span class="keyword">where</span> <span class="keyword">id</span> = <span class="number">1</span></span><br></pre></td></tr></table></figure></li>
 </ul>
 
       
@@ -247,7 +285,7 @@
     <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
     <p>扫一扫，分享到微信</p>
     <div class="wx-qrcode">
-      <img src="//pan.baidu.com/share/qrcode?url=http://hmbool.github.io/2019/09/05/test/" alt="微信分享二维码">
+      <img src="//pan.baidu.com/share/qrcode?url=http://hmbool.github.io/2019/09/18/搭建Mysql/" alt="微信分享二维码">
     </div>
 </div>
 
@@ -261,18 +299,9 @@
   
 <nav id="article-nav">
   
-    <a href="/2019/09/18/搭建Mysql/" id="article-nav-newer" class="article-nav-link-wrap">
-      <i class="icon-circle-left"></i>
-      <div class="article-nav-title">
-        
-          搭建Mysql
-        
-      </div>
-    </a>
   
-  
-    <a href="/2019/07/18/hello-world/" id="article-nav-older" class="article-nav-link-wrap">
-      <div class="article-nav-title">Hello World</div>
+    <a href="/2019/09/05/test/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title"></div>
       <i class="icon-circle-right"></i>
     </a>
   
